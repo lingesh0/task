@@ -5,7 +5,7 @@ import History from './pages/History';
 
 function App() {
   return (
-    <Router>
+    <Router future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
       <div className="App">
         <nav className="bg-white shadow-sm border-b">
           <div className="container mx-auto px-4">
